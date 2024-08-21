@@ -1,0 +1,1 @@
+This code use the output from LigParGen and convert the lammps data file to have unique atoms, bonds, etc. This code in fact can also be used to merge multiple lammps data files. Written by Rajib Biswas (2024).
