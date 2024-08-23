@@ -40,7 +40,7 @@ program lammps_out
   character (len=8) :: x1, fmt
   character (len=1024) :: file1, file2
   
-  file2='H_096CAD'
+  file2='LigParGen_LAMMPS_data'
   file1=trim(file2)//'_edited.data'
   open(unit = inpf, file=trim(file2)//'.lmp', action='read')
 
